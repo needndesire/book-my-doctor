@@ -22,7 +22,7 @@
 .c1{
     border: var(--border);
     height: 300px;
-    width: 400px;
+    width: 300px;
     margin: 2px auto;
     box-shadow: var(--box-shadow);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6x_Wg1kgUi8p_hPlYMhVf6fKm0i-rsYwPJA&s://files.yappe.in/place/full/vivek-hospital-6409261.webp");
@@ -32,7 +32,7 @@
 .c2{
     border: var(--border);
     height: 200px;
-    width: 400px;
+    width: 300px;
     margin: 2px auto;
     box-shadow: var(--box-shadow);
     background-color: aliceblue;
