@@ -16,7 +16,7 @@
     height: 510px;
     width: 310px;
     margin: 18px auto;
-    border: var(--border);
+   
     box-shadow: var(--box-shadow);
 
 }
