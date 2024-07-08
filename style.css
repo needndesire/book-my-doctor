@@ -168,7 +168,31 @@
 
 
 /* for responsive  */
-/* @media (max-width:)
- */
+@media(max-width:430px){
+    .nav{
+        display: none;
+
+    }
+    .company-name{
+        /* border: 10px solid red; */
+    }
+    .company-name p{
+        display: none;
+            
+    }
+    .company-name img{
+        border-radius: 10px;
+    }
+    .sign-box{
+
+        display: block;
+        margin-right: 0px;
+        margin-top: 10px;
+        width: 150px;
+        /* border: 10px solid red; */
+
+    }
+
+}
 
 
