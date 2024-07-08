@@ -168,7 +168,7 @@
 
 
 /* for responsive  */
-@media(max-width:430px){
+@media(max-width:530px){
     .nav{
         display: none;
 
