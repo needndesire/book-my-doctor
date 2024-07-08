@@ -105,7 +105,7 @@
 .card{
     height: 510px;
     width: 310px;
-    margin: 18px auto;
+    margin: 15px;
     /* border: var(--border); */
     box-shadow: var(--box-shadow);
 
