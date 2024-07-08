@@ -88,12 +88,7 @@
 }
 
 
-*{
-    margin: 0ppx;
-    padding: 0px;
-    box-sizing: border-box;
 
-}
 .card-box{
     /* border: var(--border); */
     width: 100%;
@@ -105,6 +100,7 @@
 .card{
     height: 510px;
     width: 310px;
+    /* margin: 18px auto; */
     margin: 15px;
     /* border: var(--border); */
     box-shadow: var(--box-shadow);
@@ -168,7 +164,7 @@
 
 
 /* for responsive  */
-@media(max-width:530px){
+@media(max-width:430px){
     .nav{
         display: none;
 
@@ -194,5 +190,6 @@
     }
 
 }
+
 
 
