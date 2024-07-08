@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job appllication form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main">
+        <!-- <div class="form-box1"> -->
+         <form action="/">
+            <fieldset class="form-box">
+                <legend>JOB APPLICATION FORM</legend>
+                    
+                        <div class="input-div fname">
+                            <label for="">FIRST NAME</label><br>
+                            <input type="text" placeholder="Type your first Name" autofocus required pattern="[a-zA-Z]+" name="fname" class="input-fname ">
+                        </div>
+                        <div class="input-div lname">
+                            <label for="">LAST NAME</label><br>
+                            <input type="text" placeholder="Type your first Name" name="fname" class="input-fname ">
+                        </div>
+                        <div class="input-div email">
+                            <label for="">E-MAIL</label><br>
+                            <input type="email" placeholder="Type your first Name" name="fname" class="input-fname ">
+                        </div>
+                        <div class="input-div mo-number">
+                            <label for="">MO-NUMBER</label><br>
+                            <input type="number" placeholder="Type your first Name" minlength="10" maxlength="10" name="fname" class="input-fname ">
+                        </div>
+                        <div class="input-div dob">
+                            <label for="">DOB</label><br>
+                            <input type="date" placeholder="Type your first Name" class="input-fname ">
+                        </div>
+                        <div class="input-div state">
+                            <label for="">STATE</label><br>
+                            <input type="text" placeholder="Type your first Name" class="input-fname ">
+                        </div>
+                        <div class="input-div gender ">
+                            
+                                <label for="">GENDER</label><br>
+                            <div class="gender-div">
+                                <input type="radio" name="gender" class="radio">MALE
+                                <input type="radio" name="gender" class="radio">FEMALE
+                                <input type="radio" name="gender" class="radio">OTHER
+                            </div>
+                        </div>
+                        <div class="input-div address ">
+                            <label for="">ADDRESS</label><br>
+                            <input type="textarea" placeholder="address" aria-rowcount="3" class="input-textarea ">
+                        </div>
+                        <div class="input-div qualification gender">
+                            <label for="">QUALIFICATION</label><br>
+                            <div class="gender-div">
+                                <input type="radio" name="gender" class="radio">10<sup>th</sup>
+                                <input type="radio" name="gender" class="radio">12<sup>th</sup>
+                                <input type="radio" name="gender" class="radio">UNDER GRADUATE
+                                <input type="radio" name="gender" class="radio">POST GRADUATE
+
+                            </div>
+                        </div>
+                        <div class="input-div upload-image ">
+                            
+                                <label for="">UPLOAD IMAGE</label><br>
+                                <input type="file" accept="image/*" class="gender-div" class="input-fname ">
+                         
+                        </div>
+                        <div class="input-div save ">
+                            <input type="submit" class="input-save" value="SAVE" name="submit">
+                        </div>
+                        <div class="input-div reset">   
+                            <input type="submit" class="input-save" value="RESET" name="submit">
+                    </div>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
